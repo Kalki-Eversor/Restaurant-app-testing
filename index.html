@@ -1,2 +1,126 @@
-<html><head></head>
-<body></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #a83232;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        h1 {
+            margin: 0;
+        }
+        .menu-section {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .menu-category {
+            margin-bottom: 2rem;
+        }
+        .menu-category h2 {
+            border-bottom: 2px solid #a83232;
+            padding-bottom: 0.5rem;
+            color: #a83232;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            border-bottom: 1px dashed #ccc;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .item-name {
+            font-weight: bold;
+        }
+        .item-price {
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: #fff;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>La Bella Cucina</h1>
+        <p>Authentic Italian Dining</p>
+    </header>
+
+    <div class="menu-section">
+        <div class="menu-category">
+            <h2>Appetizers</h2>
+            <div class="menu-item">
+                <span class="item-name">Bruschetta</span>
+                <span class="item-price">$6.99</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">Caprese Salad</span>
+                <span class="item-price">$7.99</span>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h2>Main Courses</h2>
+            <div class="menu-item">
+                <span class="item-name">Spaghetti Carbonara</span>
+                <span class="item-price">$13.99</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">Margherita Pizza</span>
+                <span class="item-price">$12.99</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">Chicken Parmesan</span>
+                <span class="item-price">$15.49</span>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h2>Desserts</h2>
+            <div class="menu-item">
+                <span class="item-name">Tiramisu</span>
+                <span class="item-price">$6.49</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">Cannoli</span>
+                <span class="item-price">$5.99</span>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h2>Beverages</h2>
+            <div class="menu-item">
+                <span class="item-name">Espresso</span>
+                <span class="item-price">$2.99</span>
+            </div>
+            <div class="menu-item">
+                <span class="item-name">Red Wine (Glass)</span>
+                <span class="item-price">$6.50</span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 La Bella Cucina | All Rights Reserved
+    </footer>
+
+</body>
+</html>
